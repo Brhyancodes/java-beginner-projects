@@ -20,4 +20,8 @@ public class Expense {
     public String getCategory() {
         return category;
     }
+
+    public void displayExpense() {
+        System.out.println("Name: " + name + ", Amount: " + amount + ", Category: " + category);
+    }
 }
